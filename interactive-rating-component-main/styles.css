@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:hsl(216, 12%, 8%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+.main-container {
+    height: 420px;
+    width: 420px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 40px;
+}
+
+#active-container {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.star-icon-container {
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.active-header {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.active-subheader {
+    width: 350px;
+    height: 80px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: hsl(216, 12%, 54%);
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.button-note {
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: hsl(217, 12%, 63%);
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.button-note:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.button-note:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.submit-button {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 45px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+
+}
+
+#thankyou-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.rating-header{
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 180px;
+    height: 30px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.thankyou-header {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.thankyou-subheader {
+    display: flex;
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#rating-container {
+    white-space: pre-wrap;
+}
+
+#svgIcon {
+    margin-top: 10px;
+}
